@@ -3,5 +3,6 @@ numpy
 pymongo[srv]
 python-dotenv
 certifi
+scikit-learn
 
 #-e .
