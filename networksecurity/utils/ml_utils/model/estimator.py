@@ -1,5 +1,3 @@
-from networksecurity.constant.training_pipeline import SAVED_MODEL_DIR, MODEL_FILE_NAME
-
 import os
 import sys
 
@@ -11,7 +9,7 @@ class NetworkModel:
         try:
             self.preprocessor=preprocessor
             self.model=model
-            
+
         except Exception as e:
             raise NetworkSecurityException(e, sys)
         
